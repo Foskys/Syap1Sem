@@ -1,0 +1,21 @@
+button{
+color: teal;
+font-size: 28px;
+font-family: "Baloo Thambi 2";
+}
+
+table {
+border: black ;
+border-collapse: collapse;
+width: 1200px;
+}
+th, td {
+border: black;
+text-align: center;
+padding: 4px;
+}
+th {
+background: yellow;
+vertical-align: center;
+padding: 4px;
+}
