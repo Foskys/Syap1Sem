@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+        <body>
+            <script>
+                function hard(){
+                    var data = "Has Error";
+                    try {
+                        var user = JSON.parse(data);
+                    }
+                    catch(e) {
+                        alert("Извините, в ваших данных ошибка, работаем над этим");
+                        alert(e.name);
+                        alert(e.message);
+                    }
+                }
+
+        </script>
+    
+    </body>
+</html>
